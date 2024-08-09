@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utilities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      .toast {
+        width: 400px;
+        /* height: 100px; */
+        background-color: #f0f0f0;
+        /* margin: auto; */
+        border-radius: 15px;
+        padding: 15px;
+      }
+      .ret {
+        width: 30px;
+        height: 30px;
+        background-color: #dc2626;
+      }
+      .ret-text {
+        display: flex;
+        align-items: center;
+      }
+      .toast-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- html/css pure -->
+    <!-- <div class="toast">
+      <div class="toast-body">
+        <div class="ret-text">
+          <div class="ret"></div>
+          <h2>Toast</h2>
+        </div>
+        <span>11 Min Ago</span>
+      </div>
+      <hr />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et
+        nesciunt commodi architecto voluptatum fugiat asperiores deleniti minus
+        debitis. Delectus aspernatur et sapiente nihil distinctio voluptas cum!
+        Pariatur, quos magnam.
+      </p>
+    </div> -->
+
+    <!-- Tailwind Css -->
+
+    <div class="w-80 bg-slate-100 p-2 rounded rounded-lg">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center">
+          <div class="w-4 h-4 bg-red-300"></div>
+          <h2 class="text-3xl">Toast</h2>
+        </div>
+        <span>11 Min Ago</span>
+      </div>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. laborum quia
+        porro rerum ab a autem magni ratione inventore. Exercitationem, aliquam.
+      </p>
+    </div>
+  </body>
+</html>

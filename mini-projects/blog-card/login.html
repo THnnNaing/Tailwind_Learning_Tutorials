@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- container -->
+    <div class="flex justify-center items-center min-h-screen">
+        <!-- card -->
+        <div class="shadow-lg p-5 rounded-xl">
+            <h1 class="text-4xl font-bold mb-5 text-center">Login</h1>
+            <input class="border p-3 rounded-lg w-full mb-5" type="text" placeholder="Enter your email">
+            <input class="border p-3 rounded-lg w-full mb-5" type="password" placeholder="Enter your password">
+            <button class="border p-3 rounded-lg w-full mb-2 bg-red-500 text-white">Login</button>
+
+            <div class="flex justify-between ">
+                <span>Forgot password</span>
+                <span>Create new account</span>
+            </div>
+
+            <div class="border-b my-5"></div>
+
+            <div class="flex space-x-3">
+            <button class="flex space-x-3 items-center justify-center border p-3 rounded-lg w-full mb-2  border-red-500">
+                <img class="w-7" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="">
+                <span>Google</span>
+            </button>
+            <button class="flex space-x-3 items-center justify-center border p-3 rounded-lg w-full mb-2  border-red-500">
+                <img class="w-7" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="">
+                <span>Facebook</span>
+            </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
